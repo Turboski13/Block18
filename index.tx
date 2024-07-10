@@ -1,0 +1,23 @@
+Unit Test 1
+    Expect multiply of (5, 6) to be 30
+    Expect multiply of (5, 6) to be a  number 
+    Expect multiply of ('name', 6) to be an error
+    Expect multiply of ('five', six) to be an error
+
+Unit Test 2
+    Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be [-1, 1, 3, 9, 15]
+    Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be numbers
+    Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to be an error
+    Expect concatOdds(["a", "name", "1980"], [9, 1, 1, 1, 4, 15, -1]) to be an error
+    Expect concatOdds([3, 2, 1], [9, 1, 1, 1, 4, 15, -1]) to not be [-1, 1, 1, 1, 3, 9, 15] (no duplicates)
+
+Functional Test 1
+    When a user clicks "Log In", they should be shown a username and password pop up box to fill in.
+    When a user Logs In with incorrect information, they should be shown an error message with a "forgot my username or password" link.
+    When a user clicks "Check out", they should be shown 2 buttons to sign in or checkout as guest.
+    When a user clicks "Check out" and has an empty cart, they should be show an error message that their cart is empty and a continue shopping button.
+    When a user clicks "Continue as guest", they should be taken to the form fillout for checkout information.
+    When a user clicks "finish purchase" as a guest with incomplete information, they should be have red boxes shown around the cells that have omitted or incomplete information.
+    When a user clicks the "Create Account" button, they should be taken through the sign up process.
+    When a user completes the sign up process with an active cart, they should be taken to their account and the cart should be carried over to their new account.
+    When a user clicks "Check out", they should be shown shipping costs for their approxamate location included in checkout total.
